@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Order Form</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Product.css">
+</head>
+<body>
+<h1>Nate's Electronics</h1>
+<h3>Computer Order Form</h3>
+<h5>Dell Computer 6500 NM</h5>
+<p></p>
+<form method="post" action="">
+<div class="form-group">
+<label>Choose Color:
+    <select name="color">
+        <option value=""></option>
+        <option value="Black">Black</option>
+        <option value="Gunmetal">Gunmetal</option>
+        <option value="Silver">Silver</option>
+    </select>
+</label>
+</div>
+</div>
+<div class="form-group">
+    <label>Graphics:
+        <select name="Graphics">
+            <option value=""></option>
+            <option value="RTX 3090 Ti">RTX 3090 Ti</option>
+            <option value="Radeon RX 7900 XT">Radeon RX 7900 XT</option>
+        </select>
+    </label>
+</div>
+<div class="form-group">
+    <label>CPU (Select one):
+        <input type="checkbox" name="CPU" value="Intel i7">Intel i7
+        <input type="checkbox" name="CPU" value="AMD Ryzen 7">AMD Ryzen 7
+    </label>
+</div>
+<div>
+<label>Storage:
+    <input type="radio" name="250GB" value="1"/>250GB
+    <input type="radio" name="1TB" value="2"/>1TB
+    <button type="reset">Reset</button>
+</label>
+</div>
+<label>Price: $500.00 - $850.00
+</label>
+<div class="form-group">
+    <textarea name="comments" rows="5" cols="20" placeholder="Custom Considerations"></textarea>
+</div>
+<h5>HP Computer Stargaze 3</h5>
+<p></p>
+<label>Choose Color:
+    <select name="color">
+        <option value=""></option>
+        <option value="White">White</option>
+        <option value="Gold">Gold</option>
+        <option value="Silver">Silver</option>
+    </select>
+</label>
+</div>
+<div class="form-group">
+    <label>Graphics:
+        <select name="Graphics">
+            <option value=""></option>
+            <option value="RTX 4070 SUPER">RTX 4070 SUPER</option>
+            <option value="Radeon PRO W7900">Radeon PRO W7900</option>
+        </select>
+    </label>
+</div>
+<div class="form-group">
+    <label>CPU (Select one):
+        <input type="checkbox" name="CPU" value="Intel i7">Intel i7
+        <input type="checkbox" name="CPU" value="AMD Ryzen 7">AMD Ryzen 7
+    </label>
+</div>
+<div>
+    <label>Storage:
+        <input type="radio" name="400GB" value="1"/>400GB
+        <input type="radio" name="950GB" value="2"/>950GB
+        <button type="reset">Reset</button>
+    </label>
+</div>
+<label>Price: $650.00 - $900.00
+</label>
+<div class="form-group">
+    <textarea name="comments" rows="5" cols="20" placeholder="Custom Considerations"></textarea>
+</div>
+<h5>Returning User</h5>
+<div class="form-group">
+<label>Username:</label>
+    <input type="text" name="Password" placeholder=""/>
+</div>
+<div class="form-group">
+    <label>Password:</label>
+    <input type="text" name="Password" placeholder=""/>
+</div>
+<br>
+<p>OR</p>
+<br>
+<h5>Create an Account</h5>
+<div class="form-group">
+    <label>Username (5-10 Characters):</label>
+    <input type="text" name="Password" placeholder=""/>
+</div>
+<div class="form-group">
+    <label>Password (5-10 Characters):</label>
+    <input type="text" name="Password" placeholder=""/>
+</div>
+<label>First Name:
+    <input type="text" name="lastName" placeholder=""/>
+</label>
+<label>Last Name:
+    <input type="text" name="lastName" placeholder=""/>
+</label>
+<br>
+<label>Email:
+    <input type="email" name="email" value=""/>
+</label>
+
+<label>Phone #:
+    <input type="tel" name="phone" value=""/>
+</label>
+<br>
+<label>Street address:
+        <input type="text" name="Street address" placeholder="Ex. 123 home st.">
+</label>
+<label>City:
+        <input type="text" name="city" placeholder="Ex. Berks">
+</label>
+<label>State:
+        <select name="State ">
+            <option value=""></option>
+            <option value="PA">PA</option>
+            <option value="Other than PA">Other than PA</option>
+        </select>
+</label>
+<label>Zip:
+        <input type="tel" name="zip" value="" minlength="5">
+</label>
+    <input type="submit" name="Submit" value="Submit">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</form>
+</body>
+</html>
